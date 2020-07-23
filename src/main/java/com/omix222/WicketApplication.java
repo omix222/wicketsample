@@ -28,6 +28,8 @@ public class WicketApplication extends WebApplication
 	{
 		super.init();
         // URLマッピングもJavaコーディングで実施
+        mountPage("/hello", Hello.class);
         mountPage("/list", ListPage.class);
+        mountPage("/result",ResultPage.class);
 	}
 }
