@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wicketsample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>wicketsample</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="wicketsample-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="wicketsample:war exploded" />
+    </root>
+  </artifact>
+</component>
